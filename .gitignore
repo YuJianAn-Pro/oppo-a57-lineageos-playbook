@@ -1,0 +1,31 @@
+# Secrets and environment
+.env
+.env.*
+*.pem
+*.key
+*.jks
+*.keystore
+*.pfx
+*.p12
+credentials*.json
+*secret*.{json,yaml,yml}
+*cookie*.{json,txt}
+.netrc
+.git-credentials
+
+# Device images and backups - never commit these
+*.img
+*.bin
+*.mbn
+*.elf
+*.dump
+*.bak
+backup*/
+
+# Local tooling output
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
